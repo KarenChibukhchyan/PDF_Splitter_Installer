@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PDF_Splitter_Installer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PDF_Splitter_Installer_jar</output-path>
+    <root id="archive" name="PDF_Splitter_Installer.jar">
+      <element id="module-output" name="PDF_Splitter_Installer" />
+    </root>
+  </artifact>
+</component>

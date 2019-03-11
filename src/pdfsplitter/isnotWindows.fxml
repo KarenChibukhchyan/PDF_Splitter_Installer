@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="164.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pdfsplitter.IsNotWindowsController">
+   <children>
+      <Label fx:id="IsNotWindowsLabel" layoutX="92.0" layoutY="14.0" prefHeight="74.0" prefWidth="408.0" text="PDF Splitter works only in Windows Operating Systems!!!&#10;Installation will be aborted" textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Button fx:id="closeandquitButton" layoutX="148.0" layoutY="103.0" mnemonicParsing="false" onAction="#closeAndQuitButtonAction" prefHeight="50.0" prefWidth="295.0" text="CLOSE AND QUIT">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
